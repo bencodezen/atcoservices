@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#feature {
+	margin-top: 20px;
+}
+
+#feature img {
+	width: 1000px;
+	height: 300px;
+}
+
+#bannerTitle {
+	margin-top: 20px;
+}
+
+#mainContent {
+	margin-top: 20px;
+}
+
+#mainContent #text {
+	margin: 15px;
+}
+
+#text li {
+	list-style: disc;
+	margin-left: 50px;
+}

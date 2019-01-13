@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ATCO Services Inc. - Home</title>
+	
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/global.css" type="text/css" media="screen"/>	
+    <link rel="stylesheet" href="css/home.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/slideshow.css" type="text/css" media="screen"/>
+    
+    <meta name="viewport" content="width=device-width">
+	
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800,400italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div id="page">
+
+	<div id="header">
+		<img id="logo" src="images/atcologo.png" />
+		<div id="nav">
+			<div id="topSubNav">
+				<p><a href="sitemap.html">SITEMAP</a> | <a href="careers.html">CAREERS</a> | <a href="https://www.facebook.com/pages/ATCO-Services-Inc/131167903575069?fref=ts"><img src="images/facebook.png"></a> <a href="http://www.twitter.com/atcoservicesinc"><img src="images/twitter.png"></a> <a href="http://www.linkedin.com/company/3051037?trk=tyah"><img src="images/linkedin.png"></a></p>
+			</div>
+			<div id="mainNav">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+                              <li><a href="about.html">ABOUT</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+                              <li><a href="projects.html">PROJECTS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+			</div>
+		</div>
+	</div>
+	
+    <div id="page">
+        <div id="feature">
+        	<div id="slides">
+                <img src="images/homeSlideshow/homeSS1.jpg">
+                <img src="images/homeSlideshow/homeSS2.jpg">
+                <img src="images/homeSlideshow/homeSS3.jpg">
+                <img src="images/homeSlideshow/homeSS4.jpg">
+                <img src="images/homeSlideshow/homeSS5.jpg">
+            </div>
+        </div>
+	
+	<div id="mainContent">
+	
+		<div id="whoWeAre">
+		
+			<div class="bannerTitle">
+				<h1>WHO WE ARE</h1>
+			</div>
+		
+			<p class="first">Innovative leaders in the construction industry, specifically in the mechanical sector.</p>
+		</div>
+		
+		<div id="latestNews">
+		  <a class="twitter-timeline" href="https://twitter.com/atcoservicesinc" data-widget-id="543943246104514560">Tweets by @atcoservicesinc</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+    
+    </div>
+	
+	<div id="footer">
+		
+		<div id="left">
+			<div id="columnL">
+				<ul>
+					<li><a href="index.php">HOME</a></li>
+					<li><a href="projects.html">PROJECTS</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+				</ul>
+			</div>
+			<div id="columnR">
+				<ul>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="careers.html">CAREERS</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="center">
+			<p>15924 Derwood Road, Derwood MD 20855</p>
+			<p>Phone: (301) 417-0990 || Fax: (301) 417-0991</p>
+			<p>Coppyright 2013 ATCO Services Inc. All Rights Reserved.</p>
+		</div>
+		
+		<div id="right">
+			<p>CONNECT WITH US</p>
+			<p> <a href="https://www.facebook.com/pages/ATCO-Services-Inc/131167903575069?fref=ts"><img src="images/facebook.png"></a> <a href="http://www.twitter.com/atcoservicesinc"><img src="images/twitter.png"></a> <a href="http://www.linkedin.com/company/3051037?trk=tyah"><img src="images/linkedin.png"></a> </p>
+        </div>
+	
+	</div>
+</div>
+
+	<!-- SlidesJS Required: Link to jQuery -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- End SlidesJS Required -->
+    
+    <!-- SlidesJS Required: Link to jquery.slides.js -->
+    <script src="scripts/jquery.slides.min.js"></script>
+    <!-- End SlidesJS Required -->
+    
+    <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+    <script>
+    	$(function() {
+        $('#slides').slidesjs({
+            width: 1000,
+            height: 300,
+            play: {
+              active: true,
+              auto: true,
+              interval: 4000,
+              swap: true
+            }
+          });
+        });
+	</script>
+    <!-- End SlidesJS Required -->
+</body>
+</html>

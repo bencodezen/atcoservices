@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*******************/
+/******FEATURE******/
+/*******************/
+
+#feature {
+	margin-top: 20px;
+	width: 100%;
+}
+
+#feature img {
+	width: 1000px;
+	height: 300px;
+}
+
+#mainContent {
+	margin-top: 20px;
+}
+
+
+/**********************/
+/******WHO WE ARE******/
+/**********************/
+
+#mainContent #whoWeAre {
+	width: 600px;
+	float: left;
+}
+
+#mainContent #whoWeAre .first {
+	margin-top: 20px;
+}
+
+#mainContent #whoWeAre p {
+	padding-bottom: 20px;
+	margin-left: 15px;
+}
+
+#mainContent #miniProjects a img {
+	padding: 0px 20px 20px 20px;
+}
+#mainContent #whoWeAre h2 {
+	color: #009;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+/***********************/
+/******LATEST NEWS******/
+/***********************/
+
+#mainContent #latestNews {
+	width: 360px;
+	float: left;
+	padding-left: 40px;
+}
+
+#mainContent #latestNews .newsItem {
+	margin: 0px 15px;
+}
+
+#mainContent #latestNews .firstItem {
+	margin-top: 20px;
+}
+
+#mainContent #latestNews .newsItem .date {
+	color: #666;
+	padding-bottom: 20px;
+}
+
+#mainContent #latestNews .newsItem .news {
+	padding-bottom: 20px;
+}
+
+#mainContent #latestNews .newsItem .continue {
+	color: #900;
+	font-style: italic;
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+#mainContent #latestNews .newsBreak {
+	border-top: 1px #900 solid;
+	border-bottom: 1px #900 solid;
+	padding: 2px;
+	margin-bottom: 20px;
+}
+

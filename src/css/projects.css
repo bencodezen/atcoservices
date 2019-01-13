@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*******************/
+/******FEATURE******/
+/*******************/
+
+#feature {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 300px;
+}
+
+#feature #slideshow {
+	float: left;
+	width: 700px;
+	height: 300px;
+}
+
+#feature #projectInfo {
+	float: right;
+	background-color: #DFDFDF;
+	width: 260px;
+	padding: 20px;
+	height: 260px;
+}
+
+#projectInfo .title {
+	color: #006;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#projectInfo p {
+	padding-bottom: 20px;
+}
+
+
+/************************/
+/******MAIN CONTENT******/
+/************************/
+#mainContent {
+	clear: both;
+}
+
+/***************************/
+/******CURRENT PROJECT******/
+/***************************/
+.currentProject {
+	width: 1000px;
+	height: 225px;
+	position: relative;
+	margin-top: 20px;
+}
+.bgImage {
+	width: 1000px;
+	height: 225px;
+}
+.projectInfo {
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.7);
+	height: 205px;
+	width: 270px;
+	padding: 10px 15px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.currentProject .projectInfo .title {
+	color: #006;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 22px;
+	padding-bottom: 10px;
+}
+
+.currentProject .projectInfo .location {
+	color: #006;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+	padding-bottom: 10px;
+}
+
+.currentProject .learnMore {
+	background-color: #900;
+	width: 300px;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.currentProject .learnMore p {
+	color: #FFF;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+.learnMore:hover {
+	background-color:#900;
+	opacity: 0.7;
+}
